@@ -1,0 +1,37 @@
+{
+  "name": "creditcards",
+  "version": "5.0.0",
+  "description": "Utility methods for formatting and validating credit cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape *.js && tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bendrucker/creditcards.git"
+  },
+  "keywords": [
+    "credit",
+    "cards",
+    "validation",
+    "formatting"
+  ],
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendrucker/creditcards/issues"
+  },
+  "homepage": "https://github.com/bendrucker/creditcards",
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "tape": "^5.0.1",
+    "tsd": "^0.31.0"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts"
+  ],
+  "engines": {
+    "node": ">= 18"
+  }
+}
